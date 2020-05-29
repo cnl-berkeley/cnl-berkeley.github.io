@@ -30,16 +30,62 @@
                         </nav>
                         <!-- .main-navigation -->
 <style> 
-	.site-header-menu{
+	nav{
 		text-align: left;
+    background: #e6e600;
+    padding: 10px 0;
 	}
+
+  nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+
+    position: relative;
+
+  }
+  nav a{
+    color: #3333ff;
+    text-decoration:none ;
+    text-transform:uppercase;
+    font-size: 16px;
+  }
+  nav a:hover{
+    color:#000;
+
+  }
+
+  nav a::before{
+    content:'';
+    display: block;
+    height: 5px;
+    background-color:#3333ff;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before{
+    width: 100%;
+  }
 </style>
+<!--
 <p align='right' class= 'Lab-name'><b>Cognitive Neuroanatomy Lab </b></p>
 <style type= 'text/css'> 
 	.Lab-name{
 		text-align:right
 	}
 </style>
+-->
 <img width="240" height="300" src="https://cnl.berkeley.edu/wp-content/uploads/2018/01/cropped-CNL_Logo-5.png" class="center"alt="Cognitive Neuroanatomy Lab" itemprop="logo"/>
 <style type = "text/css">
 .center {
@@ -68,7 +114,7 @@ Welcome to the Cognitive Neuroanatomy Lab (CNL) at UC Berkeley! The over-arching
 
 	}
 	</style>
-<img width="240" height="240" src= "Berkeleylogo.png" class="berkeley-logo"alt="Cognitive Neuroanatomy Lab" itemprop="logo"/>
+<img width="240" height="240" src= "Berkeleylogo.png" class="berkeley-logo"alt=""itemprop="logo"/>
 <style type = "text/css">
 .berkeley-logo {
   display: block;
