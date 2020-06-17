@@ -51,7 +51,8 @@ nav{
 }
 @media screen and (max-width:1024px){
 	.nav-links{
-		width:100%; /* gives us our width once we go down to a certain percentage of the screen*/
+		width:100%;/* gives us our width once we go down to a certain percentage of the screen*/
+		z-index:2; 
 	}
 }
 @media screen and (max-width:768px){
@@ -80,11 +81,13 @@ nav{
 	.slider{
 		opacity:0;
 	}
+
 }
 
 .nav-active{
 	transform: translateX(0%);
 }
+
 /*Animations*/
 @keyframes navLinkFade{
 	from{
@@ -95,6 +98,7 @@ nav{
 		opacity:1;
 		transform: translateX(0px);
 	}
+
 }
 .toggle .line1{
 	transform: rotate(-45deg) translate(-5px, 6px);
