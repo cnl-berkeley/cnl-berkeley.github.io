@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!--
+  <img width="150" height="250" src="https://cnl.berkeley.edu/wp-content/uploads/2018/01/cropped-CNL_Logo-5.png" class="center"alt="Cognitive Neuroanatomy Lab" itemprop="logo"/>
+<style type = "text/css">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+  height: auto;
+  width: auto;
+} 
+</style>
+-->
+
+<head> 
+    <meta charset='UTF-8'>
+    <meta name ='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link href='https:// fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel='stylesheet' href='style4.css'>
+    <title> COGNITIVE NEUROANATOMY LAB</title>
+        <div class='responsive-navigation'>
+    <nav>
+    <div class='logo'>
+        <h4><a class='epic'href='test.html'>Cognitive Neuroanatomy Lab</a></h4>
+        <style>
+          .epic{
+            text-decoration:none;
+            color:white;
+          }
+        </style>
+    </div>
+       <ul id="menu-main-menu" class="nav-links">
+                                    <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-22">
+                                        <a href="test.html">Home</a>
+                                    </li>
+                                    <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13">
+                                        <a href="research_outline.html">Research</a>
+                                    </li>
+                                    <li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7">
+                                        <a href= "members.html">People</a>
+                                    </li>
+                                    <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16">
+                                        <a href="publications.html">Publications</a>
+                                    </li>
+                                    <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19">
+                                        <a href="Resources_outline.html">Resources</a>
+                                    </li>
+                                    <li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9">
+                                        <a href="Contact_outline.html">Contact</a>
+                                    </li>
+                                    <li id="menu-item-516" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-516">
+                                        <a href="about_outline.html">About Us</a>
+                                    </li>
+                                    
+                                </ul>
+                                <div class='burger'>
+                                    <div class= 'line1'></div>
+                                    <div class= 'line2'></div>
+                                    <div class= 'line3'></div>
+                                </div>
+    </nav>
+    <script src="app.js"></script>
+  </div>
+</head>
+
+<body> 
+<h2 class='header'>WELCOME</h2>
+<style>
+  body{
+
+  }
+  .header{
+    background-color:#FDB515;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:3px;
+  }
+  </style>
+
+<div class='presentation'>
+<!-- Lab logo-->
+ 
+<div class='row'>
+<div class='column'>
+<!-- Description
+1. To edit it go in between the p tag and make your changes where the text is present (It starts at Welcome as of the last update!)-->
+<h2>
+<p align='left' class='Uni'> <b> <big> Cognitive Neuroanatomy Lab</big></b></p>
+</h2>
+<p align='left' class='Uni'> <big>PI: Dr. Kevin S. Weiner</big></p>
+<p align = 'left' class= 'Uni'> <big>
+University of California, Berkeley Psychology Department and Helen Wills Neuroscience Institute</big>
+</p> 
+<p align= 'left' class='Jaws'>
+
+Welcome to the Cognitive Neuroanatomy Lab (CNL) at UC Berkeley! The over-arching goal of our research works toward building mechanistic models explaining how brain structure and function contribute to measurable behaviors. We implement a multi-modal approach of anatomical measurements in living and post-mortem individuals across spatial scales to compare to functional measurements in humans (typically high-resolution functional magnetic resonance imaging).Presently, we have focused on high-level visual cortex (specifically the fusiform gyrus) and face perception as a model structure and a model behavior. Moving forward, we aim to implement our approach to additional brain structures and behaviors. We have also begun to lay a foundation for translational applications of our neuroimaging techniques in patient populations. Additionally, we are interested in data sharing, open science, science communication, comparative neuroanatomy across species, and the history of neuroscience. 
+</p>
+<style>
+  p.Uni{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding:10px;
+  }
+  p.Jaws{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 10px ;
+
+  }
+  </style>
+
+</div>
+  <!-- Slider Defined and Created-->
+<div class='column'>
+
+<section class='George'> 
+    <p align='center' class='Research'> <big>Research Questions</big></p>
+    <style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: right;}
+
+/* Slideshow container 
+1. max-width determines the size of the pictures
+2. position- 
+3. Margin- auto is used to make sure the margins adjust properly*/
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  float:center;
+  margin:auto;
+  z-index:1; /* This makes it so when we are in our mobile version, we are able to override the slideshow container*/
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #888888;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+/*
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+*/
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<!--
+    Here we do the html definitions of the slider.
+    To edit the pictures do the following: 
+    1. Look for the <img src> tag inside of each <div class="numbertext">
+    2. Go to the quoted image for example in the first one it is 
+    'brain2.jpg' this is our image
+    3. Take the image link you want to put in there and insert it- make sure that it is a jpg!
+    -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div> <!--Pictre number-->
+  <a href= "Website_Outline-3.html">
+  <img src="brain2.jpg" style="width:100%">
+</a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a href= "https://www.biorxiv.org/content/10.1101/2020.03.24.006577v1.full.pdf">
+  <img src="Miller_2020.jpg" style="width:100%">
+</a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a href= "research_outline.html">
+  <img src="brain4.jpg" style="width:100%">
+</a>
+  <div class="text"></div> <!--caption text-->
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<!--
+    This is our Javascript, it works to make sure that we can click
+    and make changes to our slides.
+    -->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</section>
+</div>
+</div>
+<!-- Lab News and Resources defined and formatted
+    To add more news sections to either do as follows: 
+    1. Go inside of the <ul tag, it should be under the <div class='scrollable tag'. 
+    2. Make yourself an <h4> tag and include the desired month
+    3. Make a <p> tag where you will put your title 
+    4. Inside of the <a href tag> insert your link after the href in quotes
+    5. Attach the button tag to give you your desired buttons
+-->
+<hr>
+  <section> 
+    <div class='row'>
+        <div class= 'col'>
+            <p align='center' class='lab'>Lab News</p>
+<div class="scrollable">
+<ul align= 'center'class="list"> 
+  <p align='center' class='month'>June 2020</p>
+  <hr>
+  <li>
+    <p> History of Neuroscience</p>
+    <a href= "https://cnl.berkeley.edu/research/history-of-neuroscience/">
+      <button class="button"> Read the Article</button>
+    </a>
+  </li>
+  <hr>
+  <p align='center' class='month'> May 2020</p>
+  <li> 
+    <p>How the Brain Resolves Ambiguity</p>
+    <a href= "https://www.psychologytoday.com/us/blog/illusions-delusions-and-reality/202005/how-the-brain-resolves-ambiguity">
+      <button class="button"> Read the Article</button>
+    </a>
+  </li>
+  <hr>
+  <li>
+    <p> Translational Applications in Patients</p>
+    <a href= "https://cnl.berkeley.edu/research/translational-applications-in-patients/">
+      <button class="button">Read the Article</button>
+    </a>
+  </li>
+  <hr>
+   <p align='center' class='month'> April 2020</p>
+  <li>
+    <p> The anatomical connectivity of coritical systems</p>
+    <a href= "https://cnl.berkeley.edu/research/the-anatomical-connectivity-of-human-cortical-systems/">
+      <button class="button">Read the Article</button>
+    </a>
+  </li>
+  </ul>
+</div>
+<style>
+  .scrollable{
+    height:400px;
+    overflow-y:auto;
+    width: 300px;
+    text-align:center;
+    margin:auto;
+  }
+  .list{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  .button{
+    border:none;
+    background-color:#C4820E;
+    color: white;
+    padding: 10px 20px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+  }
+  .button:hover{
+  color: white ;
+  box-shadow: 0 5px 15px #C4820E;
+}
+  .lab{
+    font-size:25px;
+  }
+  .month{
+    font-size: 20px;
+  }
+}
+  </style>
+        </div>
+<div class='col'>
+  <br>
+ <img width="150" height="250" src="https://cnl.berkeley.edu/wp-content/uploads/2018/01/cropped-CNL_Logo-5.png" class="center"alt="Cognitive Neuroanatomy Lab" itemprop="logo"/>
+</div>
+
+<div class='col'>
+            <p align='center'class='lab'>Resources</p>
+<div align= 'center' class= "scrollable2">
+  <ul align='center'class="list2">
+    <hr>
+    <li>
+      <p class='title'> Stimuli to Localize Domain</p>
+      <p> Description: Specific Regions, Selective for faces, bodies, places, objects, and characters</p>
+      <a href= "http://vpnl.stanford.edu/fLoc/">
+        <button class="button2"> Access Here </button>
+      </a>
+    </li>
+    <hr>
+    <li>
+      <p class='title'>Cross-Validated Cytoarchitectonic Regions of Interest Within Ventral Visual Cortex</p>
+      <a href= "http://vpnl.stanford.edu/vcAtlas/">
+         <button class="button2"> Access Here </button>
+        </a>
+    </li>
+    <hr>
+    <li> 
+      <p class='title'> Free Surfer</p>
+      <p> Description: Finds the most probable location of place selectivity in medial ventral temporal cortex as label files</p>
+      <a href= "http://vpnl.stanford.edu/PlaceSelectivity/">
+         <button class="button2"> Access Here </button>
+        </a>
+      </li>
+      <hr>
+    <li> 
+      <p class='title'> mrVista</p>
+      <p> To download:</p>
+      <a href= "https://github.com/vistalab/vistasoft">
+         <button class="button2"> Access Here </button>
+      </a>
+      <hr>
+      <p> To learn about:</p>
+      <a href= "http://web.stanford.edu/group/vista/cgi-bin/wiki/index.php/Software">
+        <button class="button2"> Access Here </button>
+      </a>
+    </li>
+  </div>
+<style>
+    /* scrollable2 makes the funciton scroll when the height is exceeded*/
+.scrollable2{
+  overflow-y:auto;
+  height:400px;
+  width: 300px;
+  text-align: center;
+  margin:auto;
+
+}
+.list2{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+/*Formats the buttons*/
+.button2{
+   border:none;
+    background-color:#C4820E;
+    color: white;
+    padding: 10px 20px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+}
+.button2:hover{
+  color: white ;
+  box-shadow: 0 5px 15px #C4820E;
+}
+.title{
+  font-size: 19px;
+}
+</style>
+        </div>
+    </div>
+    <style> 
+        *{
+            box-sizing:border-box;
+        }
+        .column{
+            float: left;
+            width: 50%;
+            padding:5px;
+            vertical-align:initial;
+
+        }
+        .col{
+          float:left;
+          width:33.3%;
+        }
+        /* Clear floats after the columns*/
+        .row:after{
+            content:'';
+            display:table;
+            clear:both;
+        }
+        hr{
+          margin-top:1rem;
+          margin-bottom:1rem;
+          border:0;
+          border-top: 1px solid rgba(0, 0, 0, .1);
+        }
+        @media screen and (max-width:768px)
+        {
+          .column{
+            width:100%;
+          }
+          .col{
+            width:100%;
+          }
+          .center{
+            max-width:100px;
+          }
+        }
+    </style>
+<style>
+  .presentation{
+    font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+</style>
+  </section>
+
+ 
+
+</div>
+</div>
+</div>
+<hr>
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: auto;
+  width: 100%;
+  padding-top:40px;
+} 
+
+@media screen and (max-width:768px){
+  .center{
+    max-width:35%;
+  }
+}
+</style>
+
+</body>
+
+</html>
