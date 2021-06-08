@@ -1,0 +1,87 @@
+*{
+	box-sizing:border-box;
+
+}
+body{
+	margin: 0;
+	padding:0;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between; /* pushes our code as far apart as possible */
+	align-items: center; 
+	background-color:#003262;
+	color: white;
+}
+.brand-title{
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+
+.nav-barlinks ul{
+	margin:0;
+	padding:0;
+	display: flex;
+}
+
+.nav-barlinks li{
+	list-style: none;
+}
+
+.nav-barlinks li a{
+	text-decoration:none;
+	color: white;
+	padding: 1rem;
+	display: block;
+}
+
+.nav-barlinks li:hover{
+	background-color: #555;
+}
+
+.toggle-button{
+	position:absolute;
+	top:.75rem;
+	right: 1rem;
+	display:none;
+	flex-direction:column;
+	justify-content: space-between;
+	width: 30px;
+	height:21px;
+}
+.toggle-button .bar{ /* this is where we design our hamburger menu */
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+@media(max-width: 600px) /* when a certain condition is met run the code inside of here*/{
+	.toggle-button{
+		display: flex;
+	}
+	.nav-barlinks{
+		display:none;
+		width:100%;
+	}
+	.navbar{
+		flex-direction: column;
+		align-items:flex-start;
+	}
+	.nav-barlinks ul{
+		width:100%;
+		flex-direction:column;
+
+	}
+	.nav-barlinks li{
+		text-align:center;
+	}
+	.nav-barlinks li a{
+		padding:.5rem 1rem;
+	}
+	.nav-barlinks.active{
+		display:flex;
+	}
+}
+
