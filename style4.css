@@ -190,7 +190,7 @@ nav{
 		overflow-x: hidden;
 	}
 	.nav-links{
-		position: absolute;
+		position: fixed;
 		right: 0px;
 		height: 92vh;
 		top: 8vh;
