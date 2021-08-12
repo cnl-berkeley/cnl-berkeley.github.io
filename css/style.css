@@ -37,7 +37,7 @@ nav{
 	width: 1200px;
 	position: absolute;
 	margin: -10px;
-
+	z-index: -1 !important;
 }
 /* Next & previous buttons */
 .prev, .next {
